@@ -9,8 +9,8 @@
     "mac_alarm": false,
     "callmebot": {
       "enabled": true,
-      "phone": "+447812151082",
-      "apikey": "5940826"
+      "phone": "",
+      "apikey": ""
     }
   },
   "dense_windows": [],
