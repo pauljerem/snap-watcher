@@ -3,8 +3,8 @@ name: Daily digest
 # Daily heartbeat is OFF by request. Run it by hand from the Actions tab when
 # you want a one-off summary; re-enable by uncommenting the schedule below.
 on:
-   schedule:
-   - cron: "7 7 * * *"   # 07:07 UTC = 08:07 London while BST is in effect
+  schedule:
+  - cron: "7 7 * * *"   # 07:07 UTC = 08:07 London while BST is in effect
   workflow_dispatch:
 
 jobs:
