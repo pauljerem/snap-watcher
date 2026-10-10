@@ -1,5 +1,5 @@
 {
-  "threshold_gbp": 80,
+  "threshold_gbp": 100,
   "volume": 80,
   "alarm_repeat": 6,
   "alarm_sound": "/System/Library/Sounds/Sosumi.aiff",
@@ -9,30 +9,21 @@
     "mac_alarm": false,
     "callmebot": {
       "enabled": true,
-      "phone": "",
-      "apikey": ""
+      "phone": "+447812151082",
+      "apikey": "5940826"
     }
   },
   "dense_windows": [],
   "default_interval_min": 0,
   "routes": [
     {
-      "name": "London to Paris",
-      "origin": "7015400",
-      "destination": "8727100",
-      "outbound_from": "2026-09-04",
-      "outbound_to": "2026-09-30",
-      "window_pref": "any",
-      "speak": "London to Paris"
-    },
-    {
-      "name": "Paris to London",
-      "origin": "8727100",
+      "name": "Amsterdam to London",
+      "origin": "8400058",
       "destination": "7015400",
-      "outbound_from": "2026-09-04",
-      "outbound_to": "2026-09-30",
+      "outbound_from": "2026-10-26",
+      "outbound_to": "2026-10-31",
       "window_pref": "any",
-      "speak": "Paris to London"
+      "speak": "Amsterdam to London"
     }
   ]
 }
